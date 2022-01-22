@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Neonderthaw&display=swap');
+*{
+    background-repeat: rgb(202, 200, 200);
+}
+.container-fluid{
+    padding: 10px !important;
+}
+
+.list-item li{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+
+.navbar-brand{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem !important;
+    color: #176d69 !important;
+    margin-left: 10px;
+    font-weight: bolder;
+    /* text-shadow: 0px -5px #4da19c45; */
+    
+}
+
+.navbar-brand:hover{
+    color: #24A19C !important;
+}
+.contact-link li a{
+    font-size: 1rem !important;
+    font-weight: 500;
+    color: black !important;
+}
+
+.nav-item a{
+    color: #24A19C !important;
+}
+.nav-item a:hover{
+    color: #176d69 !important;
+}
+.whatsapp:hover{
+    color: green !important;
+    background-color: rgb(127, 238, 127) !important;
+}
+
+
+.logout-btn{
+    margin-right:10px ;
+}
+.logout-btn a{
+    color: #24A19C;
+    font-size: 1.16rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #24A19C;
+    padding: 5px 20px;
+    border-radius: 5px;    
+}
+
+.logout-btn a:hover{
+    color: #FAEEE7;
+    background-color: #24A19C;
+    transition: 0.8s;
+}
+
+
+.video{
+    margin: auto;
+    
+    background-color: gainsboro;
+}
+
+
+.cards{
+    margin-top: 20px;
+}
+.cards h1{
+    text-align: center;
+}
+.cards1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fixed-footer{
+    width: 100%;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 30px;
+}
+
+input[type=text], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+  input[type=email], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+      
+  label {    
+    padding: 12px 12px 12px 0;    
+    display: inline-block;    
+  }    
+      
+  input[type=submit] {    
+    background-color: rgb(37, 116, 161);    
+    color: white;    
+    padding: 12px 20px;    
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    float: right;  
+    font-size: 1.3rem;  
+  }    
+      
+  input[type=submit]:hover {    
+    background-color: #45a049;    
+  }    
+      
+  .container {    
+    border-radius: 5px;    
+    background-color: #f2f2f2;    
+    padding: 20px;    
+  }    
+      
+  .col-25 {    
+    float: left;    
+    width: 25%;    
+    margin-top: 6px;    
+  }    
+      
+  .col-75 {    
+    float: left;    
+    width: 75%;    
+    margin-top: 6px;    
+  }    
+      
+  /* Clear floats after the columns */    
+  .row:after {    
+    content: "";    
+    display: table;    
+    clear: both;    
+  }
+
+ .container form label{
+     color: black;
+     font-size: 1.3rem;
+     font-weight: 600;
+ } 
+
+ @media(max-width:886px){
+     .cards1{
+         flex-direction: column;
+         align-items: center;
+     }
+     .card{
+         margin-bottom: 20px;
+     }
+ }
